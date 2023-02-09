@@ -16,6 +16,44 @@
 		83C3E3FF299200DF0033BCC3 /* MyARAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3E3FE299200DF0033BCC3 /* MyARAppTests.swift */; };
 		83C3E409299200DF0033BCC3 /* MyARAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3E408299200DF0033BCC3 /* MyARAppUITests.swift */; };
 		83C3E40B299200DF0033BCC3 /* MyARAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C3E40A299200DF0033BCC3 /* MyARAppUITestsLaunchTests.swift */; };
+		83C3E424299200FF0033BCC3 /* ARResource.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C3E41D299200FF0033BCC3 /* ARResource.scnassets */; };
+		83C3E461299226F00033BCC3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C3E460299226F00033BCC3 /* art.scnassets */; };
+		83D88A3029948F94001487F0 /* ARSCNVCNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88A2529948F94001487F0 /* ARSCNVCNew.swift */; };
+		83D88A3129948F94001487F0 /* ARSCNVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D88A2629948F94001487F0 /* ARSCNVC.xib */; };
+		83D88A3229948F94001487F0 /* ARSCNVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88A2729948F94001487F0 /* ARSCNVC.swift */; };
+		83D88A3329948F94001487F0 /* ARSCNVCNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D88A2829948F94001487F0 /* ARSCNVCNew.xib */; };
+		83D88A3429948F94001487F0 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88A2B29948F94001487F0 /* Scene.swift */; };
+		83D88A3529948F94001487F0 /* ghost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83D88A2C29948F94001487F0 /* ghost.wav */; };
+		83D88A3629948F94001487F0 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83D88A2D29948F94001487F0 /* Scene.sks */; };
+		83D88A3729948F94001487F0 /* ARSKVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88A2E29948F94001487F0 /* ARSKVC.swift */; };
+		83D88A3829948F94001487F0 /* ARSKVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D88A2F29948F94001487F0 /* ARSKVC.xib */; };
+		83D88ABD2994DEF1001487F0 /* RealityKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88ABC2994DEF0001487F0 /* RealityKitVC.swift */; };
+		83D88AF52994E091001487F0 /* ContainerCube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88ACA2994E091001487F0 /* ContainerCube.swift */; };
+		83D88AF62994E091001487F0 /* RUILongTouchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88ACD2994E091001487F0 /* RUILongTouchGestureRecognizer.swift */; };
+		83D88AF72994E091001487F0 /* RUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88ACE2994E091001487F0 /* RUIButton.swift */; };
+		83D88AF82994E091001487F0 /* RUISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88ACF2994E091001487F0 /* RUISlider.swift */; };
+		83D88AF92994E091001487F0 /* HasRUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD02994E091001487F0 /* HasRUI.swift */; };
+		83D88AFA2994E091001487F0 /* RUISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD12994E091001487F0 /* RUISwitch.swift */; };
+		83D88AFB2994E091001487F0 /* HasClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD22994E091001487F0 /* HasClick.swift */; };
+		83D88AFC2994E091001487F0 /* RUIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD32994E091001487F0 /* RUIText.swift */; };
+		83D88AFD2994E091001487F0 /* RUIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD42994E091001487F0 /* RUIStepper.swift */; };
+		83D88AFE2994E091001487F0 /* RUIAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD52994E091001487F0 /* RUIAnimations.swift */; };
+		83D88AFF2994E091001487F0 /* HasTurnTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD62994E091001487F0 /* HasTurnTouch.swift */; };
+		83D88B002994E091001487F0 /* RealityUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD72994E091001487F0 /* RealityUI.swift */; };
+		83D88B012994E091001487F0 /* ControlsParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AD82994E091001487F0 /* ControlsParent.swift */; };
+		83D88B022994E091001487F0 /* xcschememanagement.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83D88ADE2994E091001487F0 /* xcschememanagement.plist */; };
+		83D88B032994E091001487F0 /* ViewController+RealityControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88ADF2994E091001487F0 /* ViewController+RealityControls.swift */; };
+		83D88B042994E091001487F0 /* Entity+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D88AE02994E091001487F0 /* Entity+Extensions.swift */; };
+		83D88B052994E091001487F0 /* button_light.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AE22994E091001487F0 /* button_light.gif */; };
+		83D88B062994E091001487F0 /* RUIShake_phone_example.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AE32994E091001487F0 /* RUIShake_phone_example.gif */; };
+		83D88B072994E091001487F0 /* RealityUI_pivot_key.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AE42994E091001487F0 /* RealityUI_pivot_key.gif */; };
+		83D88B082994E091001487F0 /* slider_light.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AE52994E091001487F0 /* slider_light.gif */; };
+		83D88B092994E091001487F0 /* RUISpin_star_example.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AE62994E091001487F0 /* RUISpin_star_example.gif */; };
+		83D88B0A2994E091001487F0 /* switches_combined.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AE72994E091001487F0 /* switches_combined.gif */; };
+		83D88B0B2994E091001487F0 /* RUIText_hello_example.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AE82994E091001487F0 /* RUIText_hello_example.gif */; };
+		83D88B0C2994E091001487F0 /* stepper_light.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AE92994E091001487F0 /* stepper_light.gif */; };
+		83D88B0D2994E091001487F0 /* RUIText_symbols_example.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AEA2994E091001487F0 /* RUIText_symbols_example.gif */; };
+		83D88B0E2994E091001487F0 /* realityui_banner.gif in Resources */ = {isa = PBXBuildFile; fileRef = 83D88AEB2994E091001487F0 /* realityui_banner.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +87,44 @@
 		83C3E404299200DF0033BCC3 /* MyARAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyARAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C3E408299200DF0033BCC3 /* MyARAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARAppUITests.swift; sourceTree = "<group>"; };
 		83C3E40A299200DF0033BCC3 /* MyARAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83C3E41D299200FF0033BCC3 /* ARResource.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = ARResource.scnassets; sourceTree = "<group>"; };
+		83C3E460299226F00033BCC3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		83D88A2529948F94001487F0 /* ARSCNVCNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSCNVCNew.swift; sourceTree = "<group>"; };
+		83D88A2629948F94001487F0 /* ARSCNVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARSCNVC.xib; sourceTree = "<group>"; };
+		83D88A2729948F94001487F0 /* ARSCNVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSCNVC.swift; sourceTree = "<group>"; };
+		83D88A2829948F94001487F0 /* ARSCNVCNew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARSCNVCNew.xib; sourceTree = "<group>"; };
+		83D88A2B29948F94001487F0 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		83D88A2C29948F94001487F0 /* ghost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ghost.wav; sourceTree = "<group>"; };
+		83D88A2D29948F94001487F0 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		83D88A2E29948F94001487F0 /* ARSKVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSKVC.swift; sourceTree = "<group>"; };
+		83D88A2F29948F94001487F0 /* ARSKVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARSKVC.xib; sourceTree = "<group>"; };
+		83D88ABC2994DEF0001487F0 /* RealityKitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealityKitVC.swift; sourceTree = "<group>"; };
+		83D88ACA2994E091001487F0 /* ContainerCube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerCube.swift; sourceTree = "<group>"; };
+		83D88ACD2994E091001487F0 /* RUILongTouchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUILongTouchGestureRecognizer.swift; sourceTree = "<group>"; };
+		83D88ACE2994E091001487F0 /* RUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUIButton.swift; sourceTree = "<group>"; };
+		83D88ACF2994E091001487F0 /* RUISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUISlider.swift; sourceTree = "<group>"; };
+		83D88AD02994E091001487F0 /* HasRUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasRUI.swift; sourceTree = "<group>"; };
+		83D88AD12994E091001487F0 /* RUISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUISwitch.swift; sourceTree = "<group>"; };
+		83D88AD22994E091001487F0 /* HasClick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasClick.swift; sourceTree = "<group>"; };
+		83D88AD32994E091001487F0 /* RUIText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUIText.swift; sourceTree = "<group>"; };
+		83D88AD42994E091001487F0 /* RUIStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUIStepper.swift; sourceTree = "<group>"; };
+		83D88AD52994E091001487F0 /* RUIAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUIAnimations.swift; sourceTree = "<group>"; };
+		83D88AD62994E091001487F0 /* HasTurnTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasTurnTouch.swift; sourceTree = "<group>"; };
+		83D88AD72994E091001487F0 /* RealityUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealityUI.swift; sourceTree = "<group>"; };
+		83D88AD82994E091001487F0 /* ControlsParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsParent.swift; sourceTree = "<group>"; };
+		83D88ADE2994E091001487F0 /* xcschememanagement.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = xcschememanagement.plist; sourceTree = "<group>"; };
+		83D88ADF2994E091001487F0 /* ViewController+RealityControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+RealityControls.swift"; sourceTree = "<group>"; };
+		83D88AE02994E091001487F0 /* Entity+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+Extensions.swift"; sourceTree = "<group>"; };
+		83D88AE22994E091001487F0 /* button_light.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = button_light.gif; sourceTree = "<group>"; };
+		83D88AE32994E091001487F0 /* RUIShake_phone_example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RUIShake_phone_example.gif; sourceTree = "<group>"; };
+		83D88AE42994E091001487F0 /* RealityUI_pivot_key.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RealityUI_pivot_key.gif; sourceTree = "<group>"; };
+		83D88AE52994E091001487F0 /* slider_light.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = slider_light.gif; sourceTree = "<group>"; };
+		83D88AE62994E091001487F0 /* RUISpin_star_example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RUISpin_star_example.gif; sourceTree = "<group>"; };
+		83D88AE72994E091001487F0 /* switches_combined.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = switches_combined.gif; sourceTree = "<group>"; };
+		83D88AE82994E091001487F0 /* RUIText_hello_example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RUIText_hello_example.gif; sourceTree = "<group>"; };
+		83D88AE92994E091001487F0 /* stepper_light.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stepper_light.gif; sourceTree = "<group>"; };
+		83D88AEA2994E091001487F0 /* RUIText_symbols_example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RUIText_symbols_example.gif; sourceTree = "<group>"; };
+		83D88AEB2994E091001487F0 /* realityui_banner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = realityui_banner.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +175,15 @@
 		83C3E3E6299200DD0033BCC3 /* MyARApp */ = {
 			isa = PBXGroup;
 			children = (
+				83C3E460299226F00033BCC3 /* art.scnassets */,
+				83C3E41D299200FF0033BCC3 /* ARResource.scnassets */,
 				83C3E3E7299200DD0033BCC3 /* AppDelegate.swift */,
 				83C3E3E9299200DD0033BCC3 /* SceneDelegate.swift */,
 				83C3E3EB299200DD0033BCC3 /* ViewController.swift */,
 				83C3E3ED299200DD0033BCC3 /* Main.storyboard */,
+				83D88A2A29948F94001487F0 /* ARKit+SpriteKit  */,
+				83D88A2429948F94001487F0 /* ARKit+SceneKit  */,
+				83D88ABB2994DEF0001487F0 /* ARKit+RealityKit */,
 				83C3E3F0299200DE0033BCC3 /* Assets.xcassets */,
 				83C3E3F2299200DE0033BCC3 /* LaunchScreen.storyboard */,
 				83C3E3F5299200DE0033BCC3 /* Info.plist */,
@@ -125,6 +206,136 @@
 				83C3E40A299200DF0033BCC3 /* MyARAppUITestsLaunchTests.swift */,
 			);
 			path = MyARAppUITests;
+			sourceTree = "<group>";
+		};
+		83D88A2429948F94001487F0 /* ARKit+SceneKit  */ = {
+			isa = PBXGroup;
+			children = (
+				83D88A2729948F94001487F0 /* ARSCNVC.swift */,
+				83D88A2629948F94001487F0 /* ARSCNVC.xib */,
+				83D88A2529948F94001487F0 /* ARSCNVCNew.swift */,
+				83D88A2829948F94001487F0 /* ARSCNVCNew.xib */,
+			);
+			path = "ARKit+SceneKit ";
+			sourceTree = "<group>";
+		};
+		83D88A2A29948F94001487F0 /* ARKit+SpriteKit  */ = {
+			isa = PBXGroup;
+			children = (
+				83D88A2B29948F94001487F0 /* Scene.swift */,
+				83D88A2C29948F94001487F0 /* ghost.wav */,
+				83D88A2D29948F94001487F0 /* Scene.sks */,
+				83D88A2E29948F94001487F0 /* ARSKVC.swift */,
+				83D88A2F29948F94001487F0 /* ARSKVC.xib */,
+			);
+			path = "ARKit+SpriteKit ";
+			sourceTree = "<group>";
+		};
+		83D88ABB2994DEF0001487F0 /* ARKit+RealityKit */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ABC2994DEF0001487F0 /* RealityKitVC.swift */,
+				83D88ACA2994E091001487F0 /* ContainerCube.swift */,
+				83D88AD82994E091001487F0 /* ControlsParent.swift */,
+				83D88ADF2994E091001487F0 /* ViewController+RealityControls.swift */,
+				83D88AE02994E091001487F0 /* Entity+Extensions.swift */,
+				83D88ABE2994E091001487F0 /* RealityUI */,
+			);
+			path = "ARKit+RealityKit";
+			sourceTree = "<group>";
+		};
+		83D88ABE2994E091001487F0 /* RealityUI */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ACB2994E091001487F0 /* Sources */,
+				83D88AD92994E091001487F0 /* .swiftpm */,
+				83D88AE12994E091001487F0 /* media */,
+			);
+			name = RealityUI;
+			path = MyARApp/RealityUI;
+			sourceTree = SOURCE_ROOT;
+		};
+		83D88ACB2994E091001487F0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ACC2994E091001487F0 /* RealityUI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		83D88ACC2994E091001487F0 /* RealityUI */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ACD2994E091001487F0 /* RUILongTouchGestureRecognizer.swift */,
+				83D88ACE2994E091001487F0 /* RUIButton.swift */,
+				83D88ACF2994E091001487F0 /* RUISlider.swift */,
+				83D88AD02994E091001487F0 /* HasRUI.swift */,
+				83D88AD12994E091001487F0 /* RUISwitch.swift */,
+				83D88AD22994E091001487F0 /* HasClick.swift */,
+				83D88AD32994E091001487F0 /* RUIText.swift */,
+				83D88AD42994E091001487F0 /* RUIStepper.swift */,
+				83D88AD52994E091001487F0 /* RUIAnimations.swift */,
+				83D88AD62994E091001487F0 /* HasTurnTouch.swift */,
+				83D88AD72994E091001487F0 /* RealityUI.swift */,
+			);
+			path = RealityUI;
+			sourceTree = "<group>";
+		};
+		83D88AD92994E091001487F0 /* .swiftpm */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ADA2994E091001487F0 /* xcode */,
+			);
+			path = .swiftpm;
+			sourceTree = "<group>";
+		};
+		83D88ADA2994E091001487F0 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ADB2994E091001487F0 /* xcuserdata */,
+			);
+			path = xcode;
+			sourceTree = "<group>";
+		};
+		83D88ADB2994E091001487F0 /* xcuserdata */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ADC2994E091001487F0 /* pengrui.xcuserdatad */,
+			);
+			path = xcuserdata;
+			sourceTree = "<group>";
+		};
+		83D88ADC2994E091001487F0 /* pengrui.xcuserdatad */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ADD2994E091001487F0 /* xcschemes */,
+			);
+			path = pengrui.xcuserdatad;
+			sourceTree = "<group>";
+		};
+		83D88ADD2994E091001487F0 /* xcschemes */ = {
+			isa = PBXGroup;
+			children = (
+				83D88ADE2994E091001487F0 /* xcschememanagement.plist */,
+			);
+			path = xcschemes;
+			sourceTree = "<group>";
+		};
+		83D88AE12994E091001487F0 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				83D88AE22994E091001487F0 /* button_light.gif */,
+				83D88AE32994E091001487F0 /* RUIShake_phone_example.gif */,
+				83D88AE42994E091001487F0 /* RealityUI_pivot_key.gif */,
+				83D88AE52994E091001487F0 /* slider_light.gif */,
+				83D88AE62994E091001487F0 /* RUISpin_star_example.gif */,
+				83D88AE72994E091001487F0 /* switches_combined.gif */,
+				83D88AE82994E091001487F0 /* RUIText_hello_example.gif */,
+				83D88AE92994E091001487F0 /* stepper_light.gif */,
+				83D88AEA2994E091001487F0 /* RUIText_symbols_example.gif */,
+				83D88AEB2994E091001487F0 /* realityui_banner.gif */,
+			);
+			path = media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +442,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D88B072994E091001487F0 /* RealityUI_pivot_key.gif in Resources */,
 				83C3E3F4299200DE0033BCC3 /* LaunchScreen.storyboard in Resources */,
+				83C3E461299226F00033BCC3 /* art.scnassets in Resources */,
+				83D88B0E2994E091001487F0 /* realityui_banner.gif in Resources */,
+				83D88A3529948F94001487F0 /* ghost.wav in Resources */,
+				83D88B052994E091001487F0 /* button_light.gif in Resources */,
+				83D88A3329948F94001487F0 /* ARSCNVCNew.xib in Resources */,
+				83D88B0B2994E091001487F0 /* RUIText_hello_example.gif in Resources */,
+				83D88B0D2994E091001487F0 /* RUIText_symbols_example.gif in Resources */,
 				83C3E3F1299200DE0033BCC3 /* Assets.xcassets in Resources */,
+				83D88A3829948F94001487F0 /* ARSKVC.xib in Resources */,
+				83D88B0A2994E091001487F0 /* switches_combined.gif in Resources */,
+				83C3E424299200FF0033BCC3 /* ARResource.scnassets in Resources */,
+				83D88A3629948F94001487F0 /* Scene.sks in Resources */,
+				83D88B092994E091001487F0 /* RUISpin_star_example.gif in Resources */,
+				83D88B0C2994E091001487F0 /* stepper_light.gif in Resources */,
+				83D88B082994E091001487F0 /* slider_light.gif in Resources */,
+				83D88B022994E091001487F0 /* xcschememanagement.plist in Resources */,
+				83D88A3129948F94001487F0 /* ARSCNVC.xib in Resources */,
 				83C3E3EF299200DD0033BCC3 /* Main.storyboard in Resources */,
+				83D88B062994E091001487F0 /* RUIShake_phone_example.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +487,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D88AF82994E091001487F0 /* RUISlider.swift in Sources */,
+				83D88B002994E091001487F0 /* RealityUI.swift in Sources */,
+				83D88ABD2994DEF1001487F0 /* RealityKitVC.swift in Sources */,
+				83D88AFB2994E091001487F0 /* HasClick.swift in Sources */,
 				83C3E3EC299200DD0033BCC3 /* ViewController.swift in Sources */,
+				83D88AFE2994E091001487F0 /* RUIAnimations.swift in Sources */,
+				83D88B042994E091001487F0 /* Entity+Extensions.swift in Sources */,
+				83D88AF72994E091001487F0 /* RUIButton.swift in Sources */,
+				83D88A3029948F94001487F0 /* ARSCNVCNew.swift in Sources */,
+				83D88AFD2994E091001487F0 /* RUIStepper.swift in Sources */,
+				83D88A3429948F94001487F0 /* Scene.swift in Sources */,
+				83D88AFF2994E091001487F0 /* HasTurnTouch.swift in Sources */,
+				83D88B012994E091001487F0 /* ControlsParent.swift in Sources */,
+				83D88AF52994E091001487F0 /* ContainerCube.swift in Sources */,
 				83C3E3E8299200DD0033BCC3 /* AppDelegate.swift in Sources */,
 				83C3E3EA299200DD0033BCC3 /* SceneDelegate.swift in Sources */,
+				83D88A3729948F94001487F0 /* ARSKVC.swift in Sources */,
+				83D88AFA2994E091001487F0 /* RUISwitch.swift in Sources */,
+				83D88AFC2994E091001487F0 /* RUIText.swift in Sources */,
+				83D88A3229948F94001487F0 /* ARSCNVC.swift in Sources */,
+				83D88AF62994E091001487F0 /* RUILongTouchGestureRecognizer.swift in Sources */,
+				83D88B032994E091001487F0 /* ViewController+RealityControls.swift in Sources */,
+				83D88AF92994E091001487F0 /* HasRUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +686,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5H3D5KX6M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyARApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +714,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5H3D5KX6M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyARApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
